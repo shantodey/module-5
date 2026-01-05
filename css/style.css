@@ -11,7 +11,10 @@
 img {
     vertical-align: middle;
 }
-
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .btn {
     background-color: #FD6E0A;
     border: none;
@@ -128,10 +131,7 @@ ul li a {
 
 }
 #about__me .about__me__conntent{
-    width: 71%;
-    max-width: 1140px;
     background-color: #FFF8F3;
-    margin: 0 auto;
 }
 #about__me .about__me__heading{
    padding: 131px 0;
@@ -161,11 +161,6 @@ ul li a {
 #what_i_do{
     padding-top: 130px;
 }
-#what_i_do .what_i_do_heading{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
-}
 #what_i_do .what_i_do_cards{
     display: flex;
     justify-content: space-between;
@@ -189,7 +184,126 @@ ul li a {
     margin-bottom: 20px;
 }
 #what_i_do .what_i_do_card p{
-    font-size: 17;
+    font-size: 17px;
     color: #757575;
     line-height: 28px;
+}
+
+
+
+
+
+
+#resume{
+    margin-top: 130px;
+}
+#resume .container > h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 113px;
+}
+#resume .resume_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+#resume .resume_content .education h2,
+#resume .resume_content .experience h2{
+    font-size: 30px;
+    color: #474747;
+    font-weight: 700;
+}
+#resume .resume_content .education__card{
+    max-width: 551px;
+    margin-top: 30px;
+
+}
+#resume .resume_content .education__card .education__heading{
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+#resume .resume_content .education__card .education__date{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+#resume .resume_content .education__card .education__skil{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
+}
+.resume_content hr{
+    margin: 30px 0;
+}
+#resume .container > .btn{
+    display: block;
+    margin: 50px auto 0;
+}
+
+
+
+
+
+#form{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+}
+.contact__me{
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+#form .lcontact{
+    max-width: 562px;
+}
+#form .lcontact >h2, .contact__form >h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#form .lcontact p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#form .lcontact .sc__icon{
+    display: flex;
+    gap: 24px;
+}
+#form .lcontact .sc__icon .facebook,
+#form .lcontact .sc__icon .twiter,
+#form .lcontact .sc__icon .instagram{
+  height: 24px;
+  width: 24px;
+}
+#form .contact__form{
+    max-width: 461px;
+}
+#form .contact__form h2{
+    margin-bottom: 28px;
+}
+#form .contact__form .text,
+#form .contact__form .email{
+   border: none;
+   max-width: 461px;
+   padding: 18px 349px 18px 30px;
+}
+#form .contact__form .email{
+    margin: 24px 0;
+}
+#form .contact__form .textarea{
+    display: block;
+    margin: 24px 0;
+    border: none;
 }
