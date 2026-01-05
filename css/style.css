@@ -45,20 +45,18 @@ header {
     background-position: top left, bottom right;
 }
 
-nav {
+nav .container {
     display: flex;
     justify-content: space-between;
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo h2 {
-    font-family: "Open Sans", sans-serif;
-    color: black;
     font-weight: 900;
     font-size: 41px;
+    color: black;
 }
 
 .logo h2 span {
@@ -67,13 +65,14 @@ nav {
 
 ul {
     display: flex;
-    gap: 51px;
     align-items: center;
+    gap: 51px;
 }
 
 ul li a {
     color: #474747;
 }
+
 
 #hero {
     display: flex;
@@ -120,15 +119,9 @@ ul li a {
 
 
 
-
-
-
-
-
-
+/* about section */
 #about__me{
     margin-top:130px ;
-
 }
 #about__me .about__me__conntent{
     background-color: #FFF8F3;
@@ -154,10 +147,7 @@ ul li a {
     color: #181818;
 }
 
-
-
-
-
+/* what i do */
 #what_i_do{
     padding-top: 130px;
 }
@@ -189,11 +179,7 @@ ul li a {
     line-height: 28px;
 }
 
-
-
-
-
-
+/* resume */
 #resume{
     margin-top: 130px;
 }
@@ -208,7 +194,6 @@ ul li a {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    margin-bottom: 50px;
 }
 #resume .resume_content .education h2,
 #resume .resume_content .experience h2{
@@ -219,27 +204,23 @@ ul li a {
 #resume .resume_content .education__card{
     max-width: 551px;
     margin-top: 30px;
-
 }
 #resume .resume_content .education__card .education__heading{
     font-size: 25px;
     color: #474747;
     font-weight: 700;
     margin-bottom: 10px;
-
 }
 #resume .resume_content .education__card .education__date{
     font-size: 20px;
     color: #757575;
     font-weight: 500;
     margin-bottom: 20px;
-
 }
 #resume .resume_content .education__card .education__skil{
     font-size: 16px;
     color: #757575;
     line-height: 28px;
-
 }
 .resume_content hr{
     margin: 30px 0;
@@ -249,27 +230,25 @@ ul li a {
     margin: 50px auto 0;
 }
 
-
-
-
-
+/* contact / form */
 #form{
     margin-top: 113px;
     background-color: #FFF8F3;
 }
 .contact__me{
-    padding-top: 130px;
+    padding: 130px 0;
     display: flex;
     justify-content: space-between;
 }
 #form .lcontact{
     max-width: 562px;
 }
-#form .lcontact >h2, .contact__form >h2{
-    font-size: 28px;
+#form .lcontact > h2,
+#form .contact__form > h2{
+    font-size: 35px;
     font-weight: 700;
     color: #181818;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 #form .lcontact p{
     font-size: 16px;
@@ -289,21 +268,24 @@ ul li a {
 }
 #form .contact__form{
     max-width: 461px;
-}
-#form .contact__form h2{
-    margin-bottom: 28px;
+    width: 100%;
 }
 #form .contact__form .text,
 #form .contact__form .email{
    border: none;
-   max-width: 461px;
-   padding: 18px 349px 18px 30px;
+   width: 100%;
+   padding: 18px 30px;
+   border-radius: 5px;
 }
 #form .contact__form .email{
     margin: 24px 0;
 }
 #form .contact__form .textarea{
     display: block;
+    width: 100%;
+    padding: 18px 30px;
     margin: 24px 0;
     border: none;
+    border-radius: 5px;
+    resize: vertical;
 }
